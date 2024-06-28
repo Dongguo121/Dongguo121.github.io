@@ -1,7 +1,6 @@
 function Hello() {
    alert("Hello, World");
 }
-function Add(x,y){
-   int z=x+y;
-   alert(z);
-}
+const inputs = document.getElementById("my-form").elements;
+const inputByIndex = inputs[0];
+const inputByName = inputs["username"];
